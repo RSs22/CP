@@ -1,4 +1,5 @@
-CPP = g++ -Wall 
+CPP = g++ -Wall -Ofast -funroll-loops
+ 
 SRCS = main.cpp fluid_solver.cpp EventManager.cpp
 
 all:
